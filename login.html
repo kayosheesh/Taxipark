@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Таксопарк - Вход</title>
+    <link rel="stylesheet" href="static/styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Таксопарк - Вход</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="cars.html">Наши автомобили</a></li>
+                <li><a href="login.html">Вход</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" class="login-form" id="login-form">
+            <h1 class="login-title">Вход</h1>
+
+            <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" id="username" placeholder="Имя пользователя" required>
+            </div>
+            <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="Пароль" required>
+            </div>
+
+            <div class="remember-forgot-box">
+                <label for="remember">
+                    <input type="checkbox" name="" id="">
+                    Запомнить меня
+                </label>
+                <a href="#">Забыли пароль?</a>
+            </div>
+
+            <button type="submit" class="login-btn">Войти</button>
+
+            <p class="register">
+                Нет аккаунта?
+                <a href="register.html">Зарегистрироваться</a>
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Таксопарк. Все права защищены.</p>
+    </footer>
+
+    <script src="static/scripts/login.js"></script>
+</body>
+</html>

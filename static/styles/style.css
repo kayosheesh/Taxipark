@@ -1,0 +1,164 @@
+/* Общие стили для всех страниц */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Стили для формы входа */
+.login-form {
+    background: rgba(63, 63, 63, 0.16);
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    padding: 30px;
+    border-radius: 17px;
+    backdrop-filter: blur(26px);
+    text-align: center;
+    color: #fff;
+    width: 400px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.15);
+    margin: 50px auto;
+}
+
+.login-title {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin: 20px 0;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 12px 12px 12px 45px;
+    border-radius: 98px;
+    outline: 3px solid transparent;
+    transition: 0.3s;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 560;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.input-box input:focus {
+    outline: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.input-box i {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.remember-forgot-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.remember-forgot-box input {
+    accent-color: #fff;
+    cursor: pointer;
+}
+
+.remember-forgot-box label {
+    display: flex;
+    gap: 9px;
+    cursor: pointer;
+}
+
+.remember-forgot-box a {
+    color: white;
+    text-decoration: underline;
+}
+
+.remember-forgot-box a:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px 0;
+    background: #663b6b;
+    border: none;
+    border-radius: 99px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.login-btn:hover {
+    background: #3f9ff3;
+}
+
+.register {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.register a {
+    color: white;
+    text-decoration: none;
+    font-weight: 560;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
